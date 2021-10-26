@@ -1,0 +1,165 @@
+*{ margin:0;
+  padding:0;
+  box-sizing:border-box;  
+
+}
+body{
+  overflow-x: hidden;
+}
+
+.card1{
+  scrollbar-width: thin;
+  max-height: 15px;
+  overflow-y: scroll;
+
+}
+.pic{
+  border-radius: 50%;
+  width: 5%;
+}
+  .navbar ul{
+    font-size:14px;
+    font-family:GoogleSans Regular;
+  }
+  
+  #button {
+    background-color:#ef4d25!important;
+    border: 2px solid #ef4d25;
+    color: #fff;
+    width: 134px;
+    height: 37px;
+}
+#button2{
+  background-color:#2ab357;
+  border:2px solid #2ab357;
+  color:#fff;
+  width:105px;
+  height:37px ;
+}
+.banner{
+  background-image:url("../images/banner.png");
+  background-position:center;
+  background-repeat:no-repeat;
+  width:100%;
+  height:509px;
+}
+.heading{
+  width:35% ;
+  color: #69757b;
+  font-weight:bold;
+  font-size:48px;
+  margin-top:7%;
+  margin-left:6%;
+}
+#button3{
+  background-color:#ffcb05;
+  color:#fff;
+  width:167px;
+  height:45px;
+  border:2px solid #ffcb05;
+  margin-left:6%;
+  margin-top:2%;
+}
+.card_paragrap, p{
+  color: #69757b;
+}
+.card-text{
+  color:#69757b ;
+  font-weight: bold;
+}
+@media(max-width:360){
+  .banner{
+   background-image:url("../images/banner.png") ;
+   background-position:center;
+   width:100%!important;
+   height:509px;
+   background-repeat:no-repeat;
+   background-size:100%;
+   background-size:cover;
+}
+}
+
+@media(max-width:900px){
+  .heading{  
+  width:69% ;
+  color: #ad0606;
+  font-size:23px ;
+}
+}
+
+.card_paragraph{
+  color: #fff;
+  margin-top:5%;
+  text-align: justify;
+  
+}
+.participate{
+   margin-top:45%;
+}
+.participate #button4{
+  background-color:#1a90d0;
+  color:#fff;
+  width:167px;
+  height:45px;
+  border:2px solid #1a90d0;
+  margin-left:6%;
+  margin-top:2%;
+  
+}
+.participate{
+  color: #69757b;
+}
+
+.knowledge_center{
+  background-image:url("../images/knowledge_center bg.png");
+  width:100%;
+  height:924px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#heighlights{
+  background-color:#1a90d0;
+  width:870px;
+  height:290px ;
+  position: absolute;
+  color: #fff;
+  margin-top:-9% ;
+  margin-left:15% ;
+
+  
+}
+@media(max-width:900px){
+  #heighlights{
+    background-color:#1a90d0;
+    width:100%;
+    height:383px ;
+    position: absolute;
+    color: #fff;
+    margin-top:163% ;
+    margin-left:0% ;
+  
+    
+  }
+
+}
+.carousel-control-prev-icon {
+  background-image: url("../images/white-arrow-icon-png-12.jpg");
+}
+.carousel-control-prev-icon {
+  background-image: url("../images/white-arrow-icon-png-12.jpg");
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
